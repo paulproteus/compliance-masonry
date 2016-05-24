@@ -8,14 +8,14 @@ import (
 	"strings"
 
 	"github.com/codegangsta/cli"
-	"github.com/opencontrol/compliance-masonry/config/common"
-	"github.com/opencontrol/compliance-masonry/config/parser"
-	"github.com/opencontrol/compliance-masonry/docs"
-	"github.com/opencontrol/compliance-masonry/docx"
-	"github.com/opencontrol/compliance-masonry/gitbook"
-	"github.com/opencontrol/compliance-masonry/tools/constants"
-	"github.com/opencontrol/compliance-masonry/tools/fs"
-	"github.com/opencontrol/compliance-masonry/tools/mapset"
+	"github.com/opencontrol/compliance-masonry/packages/config/common"
+	"github.com/opencontrol/compliance-masonry/packages/config/parser"
+	"github.com/opencontrol/compliance-masonry/packages/docs"
+	"github.com/opencontrol/compliance-masonry/packages/docx"
+	"github.com/opencontrol/compliance-masonry/packages/gitbook"
+	"github.com/opencontrol/compliance-masonry/packages/tools/constants"
+	"github.com/opencontrol/compliance-masonry/packages/tools/fs"
+	"github.com/opencontrol/compliance-masonry/packages/tools/mapset"
 )
 
 var certification, exportPath, markdownPath, opencontrolDir, templatePath string

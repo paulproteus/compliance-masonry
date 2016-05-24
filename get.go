@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/opencontrol/compliance-masonry/config"
-	"github.com/opencontrol/compliance-masonry/config/common"
-	"github.com/opencontrol/compliance-masonry/config/parser"
+	"github.com/opencontrol/compliance-masonry/packages/config"
+	"github.com/opencontrol/compliance-masonry/packages/config/common"
+	"github.com/opencontrol/compliance-masonry/packages/config/parser"
 )
 
 // Get will retrieve all of the resources for the schemas and the resources for all the dependent schemas.
